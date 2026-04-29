@@ -26,6 +26,8 @@ const STRIP_HEADERS = new Set([
 ]);
 
 export default async function medLinkGateway(req, res) {
+res.setHeader("X-Accel-Buffering", "no");
+
   if (!TARGET_BASE) {
     res.statusCode = 500;
     res.setHeader("Content-Type", "application/json");
