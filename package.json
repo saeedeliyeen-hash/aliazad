@@ -1,8 +1,7 @@
 {
-  "name": "med-link-gateway",
-  "version": "4.2.0",
-  "type": "module",
-  "description": "Secure medical appointment and vitals synchronization API.",
+  "name": "kala-stock-gateway",
+  "version": "3.1.0",
+  "description": "Inventory synchronization service for Kala Stock and Pro-Coffee databases.",
   "private": true,
   "license": "UNLICENSED"
 }
