@@ -1,12 +1,6 @@
 {
   "version": 2,
-  "name": "med-link-gateway",
-  "functions": {
-    "api/index.js": {
-      "memory": 800,
-      "maxDuration": 60
-    }
-  },
+  "name": "kala-stock-gateway",
   "rewrites": [
     { "source": "/(.*)", "destination": "/api/index" }
   ],
