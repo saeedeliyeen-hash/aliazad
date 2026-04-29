@@ -3,7 +3,7 @@
   "name": "med-link-gateway",
   "functions": {
     "api/index.js": {
-      "memory": 512,
+      "memory": 800,
       "maxDuration": 60
     }
   },
