@@ -1,0 +1,8 @@
+{
+  "name": "med-link-gateway",
+  "version": "4.2.0",
+  "type": "module",
+  "description": "Secure medical appointment and vitals synchronization API.",
+  "private": true,
+  "license": "UNLICENSED"
+}
